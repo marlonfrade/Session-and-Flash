@@ -65,8 +65,6 @@ app.post("/farms", async (req, res) => {
   //   The user after submit will be redirect to the farms view, so we need to config the render too
   req.flash("success", "Successfully made a new farm!");
   res.redirect("/farms");
-
-  // Another tjimg
 });
 
 app.listen(3000, () => {
